@@ -1,7 +1,5 @@
 package albergue;
 
-import java.util.Date;
-
 public class Cliente {
 	/*
 	 * 
@@ -15,7 +13,7 @@ Passaporte, email, dataNascimento.
 	}
 	
 	public Cliente(int id, String nome, String endereco, int postalCode, String pais, int cpf, String passaporte,
-			String email, Date dataNascimento) {
+			String email, String dataNascimento) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -38,7 +36,7 @@ Passaporte, email, dataNascimento.
 	int cpf;
 	String passaporte;
 	String email;
-	Date dataNascimento;
+	String dataNascimento;
 	
 	
 	public int getId() {
@@ -105,11 +103,11 @@ Passaporte, email, dataNascimento.
 		this.email = email;
 	}
 	
-	public Date getDataNascimento() {
+	public String getDataNascimento() {
 		return dataNascimento;
 	}
 	
-	public void setDataNascimento(Date dataNascimento) {
+	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
 
@@ -119,8 +117,6 @@ Passaporte, email, dataNascimento.
 				+ ", pais=" + pais + ", cpf=" + cpf + ", passaporte=" + passaporte + ", email=" + email
 				+ ", dataNascimento=" + dataNascimento + "]";
 	}
-	
-	
 	
 	
 	

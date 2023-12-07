@@ -17,14 +17,14 @@ dataEntrada, dataSaida.
 	int idQuarto;
 	int idCama;
 	int idCliente;
-	Date dataEntrada;
-	Date dataSaida;
+	String dataEntrada;
+	String dataSaida;
 	
 	public Reserva() {
 		super();
 	}
 	
-	public Reserva(int id, int idQuarto, int idCama, int idCliente, Date dataEntrada, Date dataSaida) {
+	public Reserva(int id, int idQuarto, int idCama, int idCliente, String dataEntrada, String dataSaida) {
 		super();
 		this.id = id;
 		this.idQuarto = idQuarto;
@@ -67,19 +67,19 @@ dataEntrada, dataSaida.
 		this.idCliente = idCliente;
 	}
 	
-	public Date getDataEntrada() {
+	public String getDataEntrada() {
 		return dataEntrada;
 	}
 	
-	public void setDataEntrada(Date dataEntrada) {
+	public void setDataEntrada(String dataEntrada) {
 		this.dataEntrada = dataEntrada;
 	}
 	
-	public Date getDataSaida() {
+	public String getDataSaida() {
 		return dataSaida;
 	}
 	
-	public void setDataSaida(Date dataSaida) {
+	public void setDataSaida(String dataSaida) {
 		this.dataSaida = dataSaida;
 	}
 
